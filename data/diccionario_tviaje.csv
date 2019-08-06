@@ -1,0 +1,83 @@
+,nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves   ,col_name
+0,Identificador de viaje,6,N,id_via,,1-531594,viaje_id
+1,Identificador de persona,6,N,id_soc,,1-200117,persona_id
+2,Pregunta 5.3 Clasificación del día de viaje,1,C,p5_3,p5_3,"1,2",dia_viaje
+3,Pregunta 5.8 número de viaje,2,C,n_via,,ene-14,num_viaje
+4,Pregunta 5.6 ¿Qué tipo de lugar es el origen de su viaje?,2,C,p5_6,p5_6,"01-16,99",tipo_lugar_origen
+5,Pregunta 5.7 Por favor dígame el nombre del lugar y la dirección: mun. o delegación,3,C,p5_7_6,p5_7_6,"001-570,999",delegacion_origen
+6,Pregunta 5.7 Por favor dígame el nombre del lugar y la dirección: entidad,2,C,p5_7_7,p5_7_7,"01-32,99",entidad_origen
+7,Pregunta 5.7 Por favor dígame el nombre del lugar y la dirección: distrito origen del viaje,3,C,dto_origen,dto_origen,"001-207,300,888,999",distrito_origen
+8,Pregunta 5.9.¿A qué hora comenzó?,2,C,p5_9_1,,"00-23,99",hora_inicio
+9,Pregunta 5.9.¿En qué minuto comenzó?,2,C,p5_9_2,,"00-59,99",minuto_inicio
+10,Pregunta 5.10 ¿A qué hora terminó?,2,C,p5_10_1,,"00-23,99",hora_termino
+11,Pregunta 5.10 ¿En qué minuto terminó?,2,C,p5_10_2,,"00-59,99",minuto_termino
+12,Pregunta 5.11a ¿Qué tipo de lugar fue el destino de su viaje?,2,C,p5_11a,p5_11a,"01-16,99",tipo_lugar_destino
+13,Pregunta 5.12 Por favor dígame el nombre del lugar y la dirección de destino (mun. o delegación),3,C,p5_12_6,p5_12_6,"001-570,999",delegacion_destino
+14,Pregunta 5.12 Por favor dígame el nombre del lugar y la dirección de destino (entidad),2,C,p5_12_7,p5_12_7,"01-32,99",entidad_destino
+15,Pregunta 5.12 Por favor dígame el nombre del lugar y la dirección de destino (distrito),3,C,dto_dest,dto_dest,"001-207,300,888,999",distrito_destino
+16,Pregunta 5.13 ¿Cuál fue el propósito del viaje?,2,C,p5_13,p5_13,"01-10,99",proposito
+17,Pregunta 5.14 Dígame por favor sí utilizó 01 automóvil como medio de transporte,1,C,p5_14_01,p5_14_01,"1,2",automovil
+18,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 01 Automóvil?,1,C,p5_15_01,p5_15_01,01-ago,automovil_num_veces
+19,Pregunta 5.14 Dígame por favor sí utilizó 02 Colectivo/Micro como medio de transporte,1,C,p5_14_02,p5_14_02,"1,2",colectivo_micro
+20,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 02 Colectivo/Micro?,1,C,p5_15_02,p5_15_02,01-ago,colectivo_micro_num_veces
+21,Pregunta 5.14 Dígame por favor sí utilizó 03 Taxi (App internet) como medio de transporte,1,C,p5_14_03,p5_14_03,"1,2",taxi_app
+22,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 03 Taxi (App internet)?,1,C,p5_15_03,p5_15_03,01-ago,taxi_app_num_veces
+23,"Pregunta 5.14 Dígame por favor sí utilizó  04 Taxi (sitio, calle u otro) como medio de transporte",1,C,p5_14_04,p5_14_04,"1,2",taxi
+24,"Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó  04 Taxi (sitio, calle u otro)?",1,C,p5_15_04,p5_15_04,01-ago,taxi_num_veces
+25,Pregunta 5.14 Dígame por favor sí utilizó  05 Metro como medio de transporte,1,C,p5_14_05,p5_14_05,"1,2",metro
+26,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó  05 Metro?,1,C,p5_15_05,p5_15_05,01-ago,metro_num_veces
+27,Pregunta 5.14 Dígame por favor sí utilizó 06 Autobús RTP o M1 como medio de transporte,1,C,p5_14_06,p5_14_06,"1,2",autobus_rtp
+28,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 06 Autobús RTP o M1?,1,C,p5_15_06,p5_15_06,01-ago,autobus_rtp_num_veces
+29,Pregunta 5.14 Dígame por favor sí utilizó 07 Bicicleta como medio de transporte,1,C,p5_14_07,p5_14_07,"1,2",bicicleta
+30,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 07 Bicicleta?,1,C,p5_15_07,p5_15_07,01-ago,bicicleta_num_veces
+31,Pregunta 5.14 Dígame por favor sí utilizó 08 Autobús como medio de transporte,1,C,p5_14_08,p5_14_08,"1,2",autobus
+32,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 08 Autobús?,1,C,p5_15_08,p5_15_08,01-ago,autobus_num_veces
+33,Pregunta 5.14 Dígame por favor sí utilizó  09 Moto como medio de transporte,1,C,p5_14_09,p5_14_09,"1,2",moto
+34,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó  09 Moto?,1,C,p5_15_09,p5_15_09,01-ago,moto_num_veces
+35,Pregunta 5.14 Dígame por favor sí utilizó 10 Trolebús como medio de transporte,1,C,p5_14_10,p5_14_10,"1,2",trolebus
+36,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 10 Trolebús?,1,C,p5_15_10,p5_15_10,01-ago,trolebus_num_veces
+37,Pregunta 5.14 Dígame por favor sí utilizó 11 Metrobús o Mexibús como medio de transporte,1,C,p5_14_11,p5_14_11,"1,2",metrobus_mexibus
+38,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 11 Metrobús o Mexibús?,1,C,p5_15_11,p5_15_11,01-ago,metrobus_mexibus_num_veces
+39,Pregunta 5.14 Dígame por favor sí utilizó 12 Tren ligero como medio de transporte,1,C,p5_14_12,p5_14_12,"1,2",tren_ligero
+40,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 12 Tren ligero?,1,C,p5_15_12,p5_15_12,01-ago,tren_ligero_num_veces
+41,Pregunta 5.14 Dígame por favor sí utilizó 13 Tren suburbano como medio de transporte,1,C,p5_14_13,p5_14_13,"1,2",tren_suburbano
+42,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 13 Tren suburbano?,1,C,p5_15_13,p5_15_13,01-ago,tren_suburbano_num_veces
+43,Pregunta 5.14 Dígame por favor sí 14 Caminó en la calle como medio de transporte,1,C,p5_14_14,p5_14_14,"1,2",camino
+44,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces 14 Caminó en la calle?,1,C,p5_15_14,p5_15_14,01-ago,camino_num_veces
+45,Pregunta 5.14 Dígame por favor sí utilizó 15 Mexicable como medio de transporte,1,C,p5_14_15,p5_14_15,"1,2",mexicable
+46,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 15 Mexicable?,1,C,p5_15_15,p5_15_15,01-ago,mexicable_num_veces
+47,Pregunta 5.14 Dígame por favor sí utilizó 16 Bicitaxi como medio de transporte,1,C,p5_14_16,p5_14_16,"1,2",bicitaxi
+48,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 16 Bicitaxi?,1,C,p5_15_16,p5_15_16,01-ago,bicitaxi_num_veces
+49,Pregunta 5.14 Dígame por favor sí utilizó  17 Mototaxi como medio de transporte,1,C,p5_14_17,p5_14_17,"1,2",mototaxi
+50,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó  17 Mototaxi?,1,C,p5_15_17,p5_15_17,01-ago,mototaxi_num_veces
+51,Pregunta 5.14 Dígame por favor sí utilizó 18 Transporte  escolar como medio de transporte,1,C,p5_14_18,p5_14_18,"1,2",transporte_escolar
+52,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 18 Transporte  escolar?,1,C,p5_15_18,p5_15_18,01-ago,transporte_escolar_num_veces
+53,Pregunta 5.14 Dígame por favor sí utilizó 19 Transporte  de personal como medio de transporte,1,C,p5_14_19,p5_14_19,"1,2",transporte_personal
+54,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 19 Transporte  de personal?,1,C,p5_15_19,p5_15_19,01-ago,transporte_personal_num_veces
+55,Pregunta 5.14 Dígame por favor sí utilizó 20 Otro medio de transporte,1,C,p5_14_20,p5_14_20,"1,2",otro
+56,Pregunta 5.15 Desde que inició hasta que llegó a su destino final ¿cuántas veces usó 20 Otro medio de transporte?,1,C,p5_15_20,p5_15_20,01-ago,otro_num_veces
+57,Pregunta 5.18 ¿para llegar a su destino condujo?,1,C,p5_18,p5_18,"1,2",condujo
+58,"Pregunta 5.19 al inicio del viaje, ¿cuántas personas iban en el vehículo incluyéndose usted?",2,C,p5_19,p5_19,01-dic,personas_inicio_viaje
+59,Pregunta 5.20 ¿dónde se estacionó?,1,C,p5_20,p5_20,"1-4,9",lugar_estacionamiento
+60,Pregunta 5.21 ¿cuánta horas se estacionó?,2,C,p5_21_1,,"00-98,99",horas_estacionamiento
+61,Pregunta 5.21 ¿cuántos minutos se estacionó?,2,C,p5_21_2,,"00-59,99",minutos_estacionamiento
+62,Pregunta 5.22 ¿pagó por estacionarse?,1,C,p5_22,p5_22,"1,2",pago_estacionamiento
+63,Pregunta 5.23 ¿cuánto pagó en total?,4,C,p5_23,,"0001-9998,9999",pago_estacionamiento_cantidad
+64,Pregunta 5.24 ¿usted pagó…,1,C,p5_24,p5_24,"1-5,9",pago_usted
+65,Pregunta 5.25 el automóvil que manejó el (día de viajes) ¿qué holograma tiene?,1,C,p5_25,p5_25,"1-4,9",holograma_automovil
+66,"Pregunta 5.26 durante su viaje, ¿cuántas paradas intermedias hizo menores a 10 minutos y sin pago adicional Pregunta por transporte?",2,C,p5_26,p5_26,00-06,num_paradas_10_min
+67,Pregunta 5.27 ¿las paradas intermedias fueron para llevar o recoger a alguien?,1,C,p5_27_1,p5_27_1,"1,2",paradas_recoger_alguien
+68,Pregunta 5.27 ¿las paradas intermedias fueron para ir a la gasolinería?,1,C,p5_27_2,p5_27_2,"1,2",paradas_gasolinera
+69,Pregunta 5.27 ¿las paradas intermedias fueron para ir a un cajero?,1,C,p5_27_3,p5_27_3,"1,2",paradas_cajero
+70,Pregunta 5.27 ¿las paradas intermedias fueron para hacer una compra rápida?,1,C,p5_27_4,p5_27_4,"1,2",paradas_compra_rapida
+71,Pregunta 5.27 ¿las paradas intermedias fueron para convivencia breve?,1,C,p5_27_5,p5_27_5,"1,2",paradas_convivencia_breve
+72,Pregunta 5.27 ¿las paradas intermedias fueron para descansar?,1,C,p5_27_6,p5_27_6,"1,2",paradas_descanso
+73,Pregunta 5.27 ¿las paradas intermedias fueron para  trámite rápido?,1,C,p5_27_7,p5_27_7,"1,2",paradas_tramite_rapido
+74,Pregunta 5.27 ¿las paradas intermedias fueron para otro motivo?,1,C,p5_27_8,p5_27_8,"1,2",paradas_otro_motivo
+75,estrato sociodemográfico,1,C,estrato,estrato,01-abr,estrato_sociodemografico
+76,factor,4,N,factor,,may-21,factor
+77,unidad primaria de muestreo,5,C,upm_dis,,00010-12352,unidad_primaria_muestreo
+78,estrato de diseño muestral,4,C,est_dis,,0010-5470,estrato_diseno_muestral
+79,tamaño de localidad,1,C,tloc,tloc,01-abr,tamano_localidad
+80,sexo de la persona,1,C,sexo,sexo,"1,2",sexo
+81,edad de la persona,2,C,edad,edad,jun-99,edad
