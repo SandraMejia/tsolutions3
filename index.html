@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Olympic Trends</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+</head>
+
+<body>
+
+
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <canvas id="dotPlot" width="300" height="600"></canvas>
+      </div>
+
+      <div class="col-md-8">
+        <div class="row">
+          <canvas id="histogram" width="400" height="150"></canvas>
+          <!-- <div class='col-md-7'><canvas id="histogram" width="200" height="100"></canvas></div> -->
+          <!-- <div class="col-md-2"><canvas id="chartjs-gauge" width="80" height="100"></canvas></div> -->
+        </div>
+
+        <div class="row"><canvas id="bubbleChart" width="400" height="200"></canvas></div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- <div class="row">
+    <div class="col-md-7"><canvas id="numPasajeros" width="400" height="180"></canvas></div>
+    <div class="col-md-5"></div>
+  </div>
+
+  <div class="row"><canvas id="horarioProposito" width="800" height="180"></canvas></div> -->
+<div class = "row"><canvas id="horarioProposito" width="800" height="180"></canvas></div>
+
+<div class = "row">
+  <div class ="col-md-8"><canvas id="numPasajeros" width="400" height="180"></canvas></div>
+</div>
+
+
+
+
+
+
+
+  <!-- <div id="plot1"></div>
+  <div id="plot2"></div>
+  <div id="plot3"></div>
+  <div id="plot4"></div>
+  <div id="plot5"></div>
+  <div id="plot6"></div>
+  <div id="plot7"></div> -->
+
+  <script src="./plots.js"></script>
+</body>
+
+</html>
